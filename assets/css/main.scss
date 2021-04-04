@@ -323,8 +323,8 @@ img {
 .header_circle {
     border: none;
     box-sizing: border-box;
-    height: 13rem;
-    width: 13rem;
+    height: 7rem;
+    width: 7rem;
     border-radius: 50%;
 
     img {
@@ -348,12 +348,11 @@ img {
     display: block;
     color: var(--name_font);
     font-size: 1.5em;
-    margin-top: 1rem;
 }
 
 .header_job {
     display: block;
-    margin-top: .2rem;
+    margin-top: .1rem;
     color: var(--job_font);
     font-size: 0.75em;
     font-weight: 700;
@@ -371,7 +370,6 @@ img {
             border-radius: 50%;
             position: relative;
             transition: box-shadow .5s ease 0s, transform .5s ease .1s;
-            margin-top: -5rem;
 
             &:before {
                 
