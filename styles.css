@@ -5,11 +5,24 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: #292929;
+    overflow: hidden;
+}
+
+.wwdc-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 1400px;
+    width: 95%;
+    height: 95%;
 }
 
 
 @media (max-width: 767px) {
-    .wwdcImg>img {
+    img {
         content: url('./images/forMobile.jpg')
     }
 }
